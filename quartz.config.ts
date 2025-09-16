@@ -16,9 +16,9 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ru-RU",
-    baseUrl: "https://sobirovbn.github.io/mapofmath/",
+    baseUrl: "sobirovbn.github.io/mapofmath/",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "none",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
