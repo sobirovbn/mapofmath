@@ -18,6 +18,7 @@ const config: QuartzConfig = {
     locale: "ru-RU",
     baseUrl: "sobirovbn.github.io/mapofmath/",
     ignorePatterns: ["private", "templates", ".obsidian"],
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
